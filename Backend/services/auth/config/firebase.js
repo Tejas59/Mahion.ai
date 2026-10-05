@@ -1,4 +1,4 @@
-import admin from "firebase-admin";
+import admin, { cert } from "firebase-admin";
 
 import serviceAccount from "../serviceAccountKey.json" with { type: "json" };
 
